@@ -18,10 +18,10 @@ if(isset($_POST['simpan'])) {
 
     $query = mysqli_query ($db, $sql) ;
     if ($query) {
-        $_SESSION['notifikasi'] =  "Data siswa berhasil diperbarui ";
+        $_SESSION['notifikasi'] =  "Data pelanggan berhasil diperbarui ";
 
     } else {
-        $_SESSION['notifikasi'] = "Data siswa gagal diperbarui ";
+        $_SESSION['notifikasi'] = "Data pelanggan gagal diperbarui ";
     }
     header('Location: index.php');
 } else {
