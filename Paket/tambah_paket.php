@@ -21,10 +21,10 @@
             </tr>
                 
 
-               <tr>
-                <td>Biaya</td>
-                <td><input type="text" name="biaya"></td>
-               </tr>
+         <tr>
+               <td>Biaya</td>
+               <td><input type="text" name="biaya"></td>
+         </tr>
           
         </table>
         <button type="submit" name="simpan" class="btn btn-primary">

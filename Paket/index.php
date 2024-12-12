@@ -16,15 +16,15 @@ session_start( );
             border-collapse : collapse;
             padding : 10px;
         }
-        .kokoh {
-            color : grey;
-            font-size : 20px;
-        }
-        h2 {
-            margin-left : 330px;
-            font-weight : bold;
-            font-size : 30px;
-        }
+            .kokoh {
+        color : grey;
+        font-size : 20px;
+    }
+    h2 {
+        margin-left : 330px;
+        font-weight : bold;
+        font-size : 30px;
+    }
         
     </style>
    

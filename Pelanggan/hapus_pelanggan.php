@@ -10,9 +10,9 @@ if (isset($_GET['pelanggan_id'])) {
     $query = mysqli_query ($db, $sql) ;
 
     if ($query) {
-        $_SESSION['notifikasi'] = "Data siswa berhasil dihapus !" ;
+        $_SESSION['notifikasi'] = "Data pelanggan berhasil dihapus !" ;
     } else {
-        $_SESSION['notifikasi'] = "Data siswa gagal dihapus !" ;
+        $_SESSION['notifikasi'] = "Data pelanggan gagal dihapus !" ;
     }
     header ('Location: index.php') ;
 } else {
